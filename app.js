@@ -174,6 +174,16 @@
     html += `<div class="nav-item" data-view="github">
       <span class="nav-icon">${icons.github}</span>GitHub
     </div>`;
+    html += `<div class="nav-separator"></div>`;
+    html += `<a href="https://ahmet.sh" target="_blank" rel="noopener" class="nav-item nav-external-link">
+      <span class="nav-icon">${icons.web}</span>ahmet.sh
+    </a>`;
+    html += `<a href="https://cosmicmeta.ai" target="_blank" rel="noopener" class="nav-item nav-external-link">
+      <span class="nav-icon">${icons.web}</span>cosmicmeta.ai
+    </a>`;
+    html += `<a href="https://u2m.io" target="_blank" rel="noopener" class="nav-item nav-external-link">
+      <span class="nav-icon">${icons.web}</span>u2m.io
+    </a>`;
 
     nav.innerHTML = html;
   }

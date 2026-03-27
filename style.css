@@ -286,6 +286,11 @@ body {
   font-weight: 500;
 }
 
+.nav-external-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .sidebar-brand {
   display: flex;
   flex-direction: column;
