@@ -176,13 +176,13 @@
     </div>`;
     html += `<div class="nav-separator"></div>`;
     html += `<a href="https://ahmet.sh" target="_blank" rel="noopener" class="nav-item nav-external-link">
-      <span class="nav-icon">${icons.web}</span>ahmet.sh
+      <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg></span>ahmet.sh
     </a>`;
     html += `<a href="https://cosmicmeta.ai" target="_blank" rel="noopener" class="nav-item nav-external-link">
-      <span class="nav-icon">${icons.web}</span>cosmicmeta.ai
+      <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l1.09 3.26L16 6l-2.18 1.74L14.54 11 12 9.27 9.46 11l.72-3.26L8 6l2.91-.74L12 2z"/><path d="M5 16l.55 1.63L7.18 18l-1.09.87.36 1.63L5 19.64 3.55 20.5l.36-1.63L2.82 18l1.63-.37L5 16z"/><path d="M19 16l.55 1.63L21.18 18l-1.09.87.36 1.63L19 19.64l-1.45.86.36-1.63L16.82 18l1.63-.37L19 16z"/></svg></span>cosmicmeta.ai
     </a>`;
     html += `<a href="https://u2m.io" target="_blank" rel="noopener" class="nav-item nav-external-link">
-      <span class="nav-icon">${icons.web}</span>u2m.io
+      <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></span>u2m.io
     </a>`;
 
     nav.innerHTML = html;
