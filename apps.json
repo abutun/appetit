@@ -246,6 +246,30 @@
         "Fully AI-generated codebase"
       ],
       "screenshots": []
+    },
+    {
+      "id": "aso-screenshot-generator",
+      "name": "ASO Screenshot Generator",
+      "subtitle": "App Store Screenshot Automation",
+      "description": "Generate high-converting App Store and Google Play screenshots with device frames, benefit-driven headlines, and multi-language support.",
+      "longDescription": "ASO Screenshot Generator automates the creation of store-ready screenshots for iOS, Android, iPad, and Android tablets. Features a guided 6-phase workflow: configuration, benefit discovery, screenshot pairing, AI-enhanced generation via Gemini, showcase preview creation, and multi-language localization with cultural aesthetics. Supports English-first translation to any language with locale-specific visual touches.",
+      "icon": null,
+      "iconEmoji": "📱",
+      "category": ["developer-tools", "graphics-design"],
+      "platform": "CLI (Python)",
+      "price": "Free",
+      "github": "https://github.com/abutun/claude-skill-aso-cosmicmeta-ss",
+      "homepage": null,
+      "language": "Python",
+      "features": [
+        "4 platform support (iOS, Android, iPad, Android tablet)",
+        "6-8 screenshots per platform with action-verb headlines",
+        "Gemini AI enhancement for professional output",
+        "Multi-language with cultural visual touches",
+        "Realistic device frames with smart text color",
+        "Works as CLI tool and Claude Code skill"
+      ],
+      "screenshots": []
     }
   ]
 }
