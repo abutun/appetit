@@ -286,6 +286,62 @@ body {
   font-weight: 500;
 }
 
+.nav-external-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.brand-link {
+  margin: 0 !important;
+}
+
+.brand-logo {
+  border-radius: 6px !important;
+  object-fit: contain;
+  background: var(--bg-tertiary);
+  padding: 2px;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 4px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  transition: background var(--transition), color var(--transition);
+}
+
+.sidebar-link:hover {
+  background: var(--developer-hover);
+  color: var(--text-secondary);
+}
+
+.sidebar-link svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.sidebar-link:hover svg {
+  opacity: 1;
+}
+
 /* Main Content */
 .content {
   flex: 1;

@@ -25,6 +25,7 @@
     { "id": "ios", "name": "iOS Apps" },
     { "id": "android", "name": "Android Apps" },
     { "id": "web", "name": "Web Apps" },
+    { "id": "macos", "name": "macOS Apps" },
     { "id": "games", "name": "Games" },
     { "id": "entertainment", "name": "Entertainment" },
     { "id": "health-fitness", "name": "Health & Fitness" },
@@ -32,7 +33,10 @@
     { "id": "productivity", "name": "Productivity" },
     { "id": "utilities", "name": "Utilities" },
     { "id": "photo-video", "name": "Photo & Video" },
-    { "id": "graphics-design", "name": "Graphics & Design" }
+    { "id": "graphics-design", "name": "Graphics & Design" },
+    { "id": "developer-tools", "name": "Developer Tools" },
+    { "id": "finance", "name": "Finance" },
+    { "id": "news", "name": "News" }
   ],
   "apps": [
     {
@@ -90,7 +94,7 @@
       "platform": "iOS & Android",
       "price": "Free",
       "github": "https://github.com/abutun/appetit",
-      "homepage": "https://cosmicmeta.ai/apps-games/glow-spin/",
+      "homepage": "https://glowspin.app",
       "language": "Kotlin",
       "features": [
         "Rhythm-based reflex gameplay",
@@ -112,7 +116,7 @@
       "platform": "iOS & Android",
       "price": "Free",
       "github": "https://github.com/abutun/appetit",
-      "homepage": "https://cosmicmeta.ai",
+      "homepage": "https://swipeslip.app",
       "language": "Kotlin",
       "features": [
         "Endless tunnel running gameplay",
@@ -135,7 +139,7 @@
       "platform": "Web",
       "price": "Free",
       "github": "https://github.com/abutun/appetit",
-      "homepage": "https://cosmicmeta.ai/apps-games/swipe-slip/",
+      "homepage": "https://cosmicmeta.ai",
       "language": "JavaScript",
       "features": [
         "AI-generated tech articles and guides",
@@ -167,6 +171,103 @@
         "Public API with documentation",
         "Bulk URL management via file upload",
         "Developer-friendly with programmatic access"
+      ],
+      "screenshots": []
+    },
+    {
+      "id": "generic-nft-mint",
+      "name": "Generic NFT Mint",
+      "subtitle": "Configurable NFT Minting Interface",
+      "description": "A production-ready, configurable NFT minting interface supporting multiple ERC-721 collections with multi-wallet and multi-network support.",
+      "longDescription": "Generic NFT Mint is a fully configurable NFT minting platform built with Next.js and TypeScript. Deploy beautiful minting pages for any ERC-721 contract through a single configuration file. Supports MetaMask, WalletConnect, and multiple networks including Ethereum, Polygon, Arbitrum, and Optimism. Features glass morphism UI, contract diagnostics, static export, and subdirectory deployment.",
+      "icon": null,
+      "iconEmoji": "🎨",
+      "category": ["web", "developer-tools", "finance"],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/abutun/generic-nft-mint",
+      "homepage": null,
+      "language": "TypeScript",
+      "features": [
+        "Single config file controls everything",
+        "Multi-wallet support (MetaMask, WalletConnect)",
+        "Multi-network (Ethereum, Polygon, Arbitrum, Optimism)",
+        "Built-in contract diagnostics",
+        "Static export for any web server",
+        "Modern glass morphism UI"
+      ],
+      "screenshots": []
+    },
+    {
+      "id": "worldmonitor",
+      "name": "World Monitor",
+      "subtitle": "AI-Powered Global Intelligence Dashboard",
+      "description": "A real-time global intelligence dashboard aggregating news, geopolitical events, and infrastructure monitoring across 170+ curated feeds.",
+      "longDescription": "World Monitor is an AI-powered situational awareness platform that aggregates 170+ curated feeds across 15 categories. Features include 45+ toggleable data layers (conflicts, military bases, ports, undersea cables, cyber threats), AI-synthesized briefings with local LLM support, dual map engines (3D globe and WebGL flat map), Country Instability Index scoring, 21-language localization, and 70+ live video streams. Available as a native desktop app via Tauri and as a PWA.",
+      "icon": null,
+      "iconEmoji": "🌍",
+      "category": ["web", "macos", "news", "productivity"],
+      "platform": "Web / macOS / Windows / Linux",
+      "price": "Free",
+      "github": "https://github.com/abutun/worldmonitor",
+      "homepage": "https://monitor.cosmicmeta.ai",
+      "language": "TypeScript",
+      "features": [
+        "170+ curated intelligence feeds across 15 categories",
+        "45+ toggleable data layers (conflicts, infrastructure, cyber threats)",
+        "AI-synthesized briefings with local LLM support",
+        "Dual map engines — 3D globe and WebGL flat map",
+        "Country Instability Index with live scoring",
+        "21-language localization with RTL support",
+        "Native desktop app via Tauri"
+      ],
+      "screenshots": []
+    },
+    {
+      "id": "galactic-striker",
+      "name": "Galactic Striker",
+      "subtitle": "AI-Generated Space Shooter",
+      "description": "A fully AI-generated Python space shooter with dynamic gameplay, extensive weapon systems, and 250 handcrafted levels.",
+      "longDescription": "Galactic Striker is an action-packed space shooter built with Python and Pygame, entirely generated with AI. Features 250 handcrafted levels with boss encounters every 25 levels, seven primary weapons plus missile systems and shields, multiple alien types with advanced AI pathfinding, power-ups, and three game modes (Campaign, Arcade, Practice). Built with sprite batching, quadtree collision detection, and dynamic audio mixing.",
+      "icon": null,
+      "iconEmoji": "🚀",
+      "category": ["games", "entertainment"],
+      "platform": "Desktop (Python)",
+      "price": "Free",
+      "github": "https://github.com/abutun/Galactic-Striker",
+      "homepage": null,
+      "language": "Python",
+      "features": [
+        "250 handcrafted levels with boss encounters",
+        "7 primary weapons plus missiles and shields",
+        "Multiple alien types with advanced AI",
+        "Campaign, Arcade, and Practice game modes",
+        "Power-ups and experience-based ranking",
+        "Fully AI-generated codebase"
+      ],
+      "screenshots": []
+    },
+    {
+      "id": "aso-screenshot-generator",
+      "name": "ASO Screenshot Generator",
+      "subtitle": "App Store Screenshot Automation",
+      "description": "Generate high-converting App Store and Google Play screenshots with device frames, benefit-driven headlines, and multi-language support.",
+      "longDescription": "ASO Screenshot Generator automates the creation of store-ready screenshots for iOS, Android, iPad, and Android tablets. Features a guided 6-phase workflow: configuration, benefit discovery, screenshot pairing, AI-enhanced generation via Gemini, showcase preview creation, and multi-language localization with cultural aesthetics. Supports English-first translation to any language with locale-specific visual touches.",
+      "icon": null,
+      "iconEmoji": "📱",
+      "category": ["developer-tools", "graphics-design"],
+      "platform": "CLI (Python)",
+      "price": "Free",
+      "github": "https://github.com/abutun/claude-skill-aso-cosmicmeta-ss",
+      "homepage": null,
+      "language": "Python",
+      "features": [
+        "4 platform support (iOS, Android, iPad, Android tablet)",
+        "6-8 screenshots per platform with action-verb headlines",
+        "Gemini AI enhancement for professional output",
+        "Multi-language with cultural visual touches",
+        "Realistic device frames with smart text color",
+        "Works as CLI tool and Claude Code skill"
       ],
       "screenshots": []
     }
