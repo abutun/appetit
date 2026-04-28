@@ -270,6 +270,30 @@
         "Works as CLI tool and Claude Code skill"
       ],
       "screenshots": []
+    },
+    {
+      "id": "gridzle",
+      "name": "Gridzle",
+      "subtitle": "Counts-First Puzzle Strategy",
+      "description": "A logic puzzle game where you read row and column targets, place geometric pieces that toggle board cells, and solve grids through deduction.",
+      "longDescription": "Gridzle is a counts-first puzzle strategy game that challenges your logical thinking. Read the row and column targets, place geometric pieces that toggle board cells, and solve grids through pure deduction — no guessing required. Features 250 hand-crafted puzzle levels across 5 difficulty tiers, a star and coin reward system based on move count and completion time, and fully offline-capable gameplay. Every placement toggles the board, making turn order and strategic placement central to solving each puzzle.",
+      "icon": null,
+      "iconEmoji": "🧩",
+      "category": ["ios", "android", "games", "entertainment"],
+      "platform": "iOS & Android",
+      "price": "Free",
+      "github": "https://github.com/abutun",
+      "homepage": "https://gridzle.app",
+      "language": "Kotlin",
+      "features": [
+        "250 hand-crafted puzzle levels",
+        "5 difficulty tiers",
+        "Logic-driven — no guessing required",
+        "Piece placement toggles the board",
+        "Star and coin reward system",
+        "Fully offline-capable"
+      ],
+      "screenshots": []
     }
   ]
 }
